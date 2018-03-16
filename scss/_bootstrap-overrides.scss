@@ -8,14 +8,13 @@ a {
 }
 
 .btn-primary {
-  background-color: $primary !important;
-  border-color: $primary !important;
+  background-color: #232323 !important;
+  border-color: white !important;
   color: $white !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
+    background-color: darken(#232323, 10%) !important;
   }
 }
 

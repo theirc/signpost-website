@@ -1,24 +1,33 @@
 .masthead {
-  min-height: 30rem;
+  min-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
+  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('http://images.contentful.com/ktglofo8nf88/2M88W0lfaoIeaeACiYSUg0/cef8960e18f4f343cdf1f21b9ab0b033/SP__1_.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: #232323;
+
   h1 {
     font-size: 4rem;
     margin: 0;
     padding: 0;
   }
   @media (min-width: 992px) {
-    height: 100vh;
     h1 {
       font-size: 5.5rem;
+    }
+  }
+
+  a {
+    margin-top: 20rem;
+    
+    @media (min-width: 992px) {
+      margin-top: 25rem;
     }
   }
 }
