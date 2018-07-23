@@ -281,7 +281,7 @@ h6 {
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
+
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -292,14 +292,10 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
-  .portfolio-item:hover .caption {
-    background-color: rgba(35, 35, 35, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
+
 }
 
 footer.footer {
