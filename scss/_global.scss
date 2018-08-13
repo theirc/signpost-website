@@ -6,7 +6,9 @@ html {
 
 body {
   @include body-font;
+
 }
+
 
 // Custom Button Size
 .btn-xl {
@@ -19,6 +21,24 @@ body {
   padding-bottom: 7.5rem;
 }
 
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  pointer-events: none
+}
+
+.featured-cnt{
+
+ position: relative;
+ overflow: hidden;
+}
+
+
+
 .content-section-heading {
   h2 {
     font-size: 3rem;
@@ -27,6 +47,7 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
   }
+
 }
 
 // Typography

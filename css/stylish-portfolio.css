@@ -17,6 +17,20 @@ body {
   padding-bottom: 7.5rem;
 }
 
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  pointer-events: none;
+}
+
+.featured-cnt {
+  position: relative;
+  overflow: hidden;
+}
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
@@ -87,11 +101,11 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("http://images.contentful.com/ktglofo8nf88/2M88W0lfaoIeaeACiYSUg0/cef8960e18f4f343cdf1f21b9ab0b033/SP__1_.png");
+  background: url("../img/header-logo-sp.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #232323;
+  background-color: #00020f;
 }
 
 .masthead h1 {
@@ -248,7 +262,6 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -281,7 +294,6 @@ h6 {
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -295,7 +307,11 @@ h6 {
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
   }
-
+  .portfolio-item:hover .caption {
+    background-color: rgba(35, 35, 35, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
 }
 
 footer.footer {
