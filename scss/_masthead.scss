@@ -6,7 +6,7 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: url("../img/header-logo-sp.png");
+  // background: url("../img/header-logo-sp.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -27,7 +27,11 @@
     margin-top: 20rem;
 
     @media (min-width: 992px) {
-      margin-top: 25rem;
+      margin-top: 8rem;
     }
+  }
+
+  .lead {
+    font-weight: 500;
   }
 }
