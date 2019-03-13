@@ -98,18 +98,11 @@ h6 {
 }
 
 .masthead {
-  min-height: 100vh;
+  max-height: 75vh;
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: url("../img/portfolio-2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #00020f;
+  overflow: hidden;
 }
 
 .masthead h1 {
@@ -136,6 +129,10 @@ h6 {
 
 .masthead .lead {
   font-weight: 500;
+}
+
+.masthead .carousel {
+  width: 100%;
 }
 
 .service-icon {
@@ -262,6 +259,8 @@ footer.footer .social-link:hover {
 
 #mainNav .navbar-brand {
   color: #212529;
+  background-image: url("../img/sp-logo-inverted.png");
+  background-size: cover;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -305,6 +304,7 @@ footer.footer .social-link:hover {
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
+    background-image: url("../img/sp-logo.png");
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #232323;
@@ -368,4 +368,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.carousel-caption {
+  top: 50%;
 }

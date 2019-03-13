@@ -1,17 +1,18 @@
 .masthead {
-  min-height: 100vh;
+  max-height: 75vh;
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: url("../img/portfolio-2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  // height: auto;
+  // padding-top: 8rem;
+  // padding-bottom: 8rem;
+  // background: url("../img/portfolio-2.jpg");
+  // background-position: center center;
+  // background-repeat: no-repeat;
   // background-size: contain;
-  background-size: cover;
-  background-color: #00020f;
+  // background-size: cover;
+  // background-color: #00020f;
 
   h1 {
     font-size: 4rem;
@@ -34,5 +35,9 @@
 
   .lead {
     font-weight: 500;
+  }
+
+  .carousel {
+    width: 100%;
   }
 }

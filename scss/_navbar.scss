@@ -6,7 +6,9 @@
 	.navbar-brand {
 	//   font-family: $font-family-sans-serif;
 	//   font-weight: $font-weight-bold;
-	  color: $gray-900;
+		color: $gray-900;
+		background-image: url('../img/sp-logo-inverted.png');
+		background-size: cover;
 	}
 	.navbar-nav {
 	  .nav-item {
@@ -31,6 +33,7 @@
 	  box-shadow: none;
 	  background-color: transparent;
 	  .navbar-brand {
+			// background-image: url('../img/sp-logo-inverted.png');
 		color: fade-out($white, .3);
 		&:hover {
 		  color: $white;
@@ -60,7 +63,8 @@
 		  color: $gray-900;
 		  &:hover {
 			color: $primary;
-		  }
+			}
+			background-image: url('../img/sp-logo.png');
 		}
 		.navbar-nav {
 		  .nav-item {
