@@ -2,9 +2,13 @@
 @import "mixins";
 @import "global";
 @import "masthead";
-@import "sidebar";
+// @import "sidebar";
 @import "services";
 @import "callout";
 @import "portfolio";
 @import "footer";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "navbar";
 @import "bootstrap-overrides";

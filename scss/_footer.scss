@@ -1,7 +1,10 @@
 footer.footer {
   background-color: $gray-1000;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  a {
+    color: gray;
+  }
   .social-link {
     display: block;
     height: 4rem;

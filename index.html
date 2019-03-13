@@ -42,27 +42,31 @@
 
 <body id="page-top">
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fa fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Signpost</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#who-are-we">Who we are</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#our-instances">Our instances</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#featured">Featured content</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/sp-logo.png" alt="Signpost" style="height: 40px"/>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#who-are-we">Who we are</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#partners">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <header class="masthead d-flex text-white">
@@ -80,13 +84,8 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h1>Signpost
-            <br />
-            <em>\ ˈsīn-ˌpōst \</em>
-            <br />
-            <small>verb: to indicate direction or guide;</small>
-          </h1>
-          <h3></h3>
+          <h1>Signpost</h1>
+          <span>\ ˈsīn-ˌpōst \</span>
           <br>
           <br>
           <p class="lead mb-5" style="padding-left: 30px; padding-right: 30px;">
@@ -118,10 +117,10 @@
 
   </section>
 
-  <section class="content-section bg-primary text-white text-center" id="who-are-we">
+  <section class="content-section bg-primary text-white text-center" id="partners">
     <div class="container">
-      <div class="row" style="margin-top:10vh">
-        <div class="col-lg-3 col-md-3 mb-5 mb-md-0" style="display: flex; justify-content: space-between; flex-direction: row; padding-right: 20px; border-right: 1px solid #ccc;">
+      <div class="row">
+        <div class="col-lg-3" style="display: flex; justify-content: center; flex-direction: row;">
           <a href="https://www.rescue.org/" target="_blank">
             <img src="img/logo-IRC.png" alt="The International Rescue Committee" style="height: 132px;" />
           </a>
@@ -129,15 +128,18 @@
             <img src="img/logo-MC.png" alt="Mercy Corps" style="height: 132px;" />
           </a>
         </div>
-        <div class="col-sm-9">
-          <p class="lead mb-5 text-left" style="padding-left: 30px; padding-right: 30px;">
+        <div class="col-lg-1" style="padding-right: 20px; border-right: 1px solid #ccc;"></div>
+        <div class="col-lg-7 offset-lg-1">
+          <p class="lead text-left" style="padding-right: 30px;">
             Signpost is a collaboration among the IRC and Mercy Corps Cibo ferri instructior te ius, 
             case volumus cum ex, magna phaedrum ocurreret has id. Te quodsi dolorem 
             consetetur qui. Ea equidem hendrerit definitionem vis, ea labitur invidunt mea
             vis summo omnes ad. Magna solum an usu, cum quaerendum instructior in,
             ad graeci aperiri mei. Ex erat epicuri elaboraret vim, tantas mollis antiopam eos cu.
           </p>
-          <a class="btn btn-primary js-scroll-trigger" href="#our-instances">Our instances</a>
+          <div class="text-left">
+            <a class="btn btn-primary js-scroll-trigger" href="#our-instances">Our instances</a>
+          </div>
         </div>
       </div>
     </div>
@@ -182,17 +184,17 @@
     </div>
   </section>
 
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <p class="text-muted small mb-0">Official Signpost website.</p>
+          <p class="text-white small mb-0">Official Signpost website.</p>
         </div>
         <div class="col-lg-4">
-          <p class="text-muted small mb-0">Copyright &copy; <script>document.write(new Date().getFullYear())</script> SIGNPOST. All Rights Reserved.</p>
+          <p class="text-muted small mb-0" style="font-weight: 300">Copyright &copy; <script>document.write(new Date().getFullYear())</script> SIGNPOST. All Rights Reserved.</p>
         </div>
         <div class="col-lg-4">
-          <p class="text-muted small mb-0">Github Branding Legal contact@signpost.ngo</p>
+          <p class="text-muted small mb-0"><a href="https://github.com/theirc">Github</a> <a href="#">Branding</a> <a href="#">Legal</a> <a href="contact@signpost.ngo">contact@signpost.ngo</a></p>
         </div>
       </div>
     </div>
@@ -213,7 +215,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-  <script></script>
+  <script src="js/navbar.js"></script>
 
 </body>
 
