@@ -259,7 +259,7 @@ footer.footer .social-link:hover {
 
 #mainNav .navbar-brand {
   color: #212529;
-  background-image: url("../img/sp-logo-inverted.png");
+  background-image: url("../img/logo-sp.png");
   background-size: cover;
 }
 
@@ -283,6 +283,7 @@ footer.footer .social-link:hover {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
+    background-image: url("../img/logo-sp-white.png");
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
@@ -304,7 +305,7 @@ footer.footer .social-link:hover {
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
-    background-image: url("../img/sp-logo.png");
+    background-image: url("../img/logo-sp.png");
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #232323;
