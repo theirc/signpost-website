@@ -118,13 +118,7 @@ h6 {
 }
 
 .masthead a {
-  margin-top: 20rem;
-}
-
-@media (min-width: 992px) {
-  .masthead a {
-    margin-top: 8rem;
-  }
+  margin-top: 4rem;
 }
 
 .masthead .lead {
@@ -372,5 +366,8 @@ a:hover, a:focus, a:active {
 }
 
 .carousel-caption {
-  top: 50%;
+  max-width: 60%;
+  top: 40%;
+  left: 0;
+  right: 0;
 }

@@ -4,15 +4,6 @@
   display: table;
   width: 100%;
   overflow: hidden;
-  // height: auto;
-  // padding-top: 8rem;
-  // padding-bottom: 8rem;
-  // background: url("../img/portfolio-2.jpg");
-  // background-position: center center;
-  // background-repeat: no-repeat;
-  // background-size: contain;
-  // background-size: cover;
-  // background-color: #00020f;
 
   h1 {
     font-size: 4rem;
@@ -26,11 +17,11 @@
   }
 
   a {
-    margin-top: 20rem;
+    margin-top: 4rem;
 
-    @media (min-width: 992px) {
-      margin-top: 8rem;
-    }
+    // @media (min-width: 992px) {
+    //   margin-top: 8rem;
+    // }
   }
 
   .lead {
