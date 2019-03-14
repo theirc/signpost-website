@@ -21,68 +21,75 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68574649-9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68574649-9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-68574649-9');
+  </script>
 
-  gtag('config', 'UA-68574649-9');
-</script>
-
-<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-<link rel="manifest" href="icons/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
 </head>
 
 <body id="page-top">
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fa fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Signpost</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#who-are-we">Who we are</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#our-instances">Our instances</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#featured">Featured content</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 132px; height: 40px"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#who-are-we">WHO WE ARE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#partners">PARTNERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <a class="btn btn-outline-light btn-lg js-scroll-trigger" style="" href="#about">Find Out More</a>
+  <header class="masthead d-flex text-white">
+    <div id="carouselMain" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/bg-slide-01.jpg" alt="Signpost photo">
+          <div class="container carousel-caption d-none d-md-block">
+            <p class="lead">
+              Signpost is a digital initiative providing the humanitarian community with a platform to reach refugees,
+              asylum seekers and crisis-affected people around the world with accessible audience-informed information.
+              <br>
+              <a class="btn btn-secondary btn-lg js-scroll-trigger" href="#about">FIND OUT MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="overlay"></div>
   </header>
 
   <section class="content-section bg-light" id="about">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h1>Signpost
-            <br />
-            <em>\ ˈsīn-ˌpōst \</em>
-            <br />
-            <small>verb: to indicate direction or guide;</small>
-          </h1>
-          <h3></h3>
+          <h1>Signpost</h1>
+          <span>\ ˈsīn-ˌpōst \</span>
           <br>
           <br>
           <p class="lead mb-5" style="padding-left: 30px; padding-right: 30px;">
@@ -91,79 +98,87 @@
             context-specific, up-to-date information on vital needs such as legal rights, transportation, and medical services
             in multiple languages – empowering individuals to make informed decisions at the most critical moments.
           </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#who-are-we">Who we are</a>
+          <a class="btn btn-outline-dark js-scroll-trigger" href="#who-are-we">Who we are</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="content-section bg-primary text-white text-center" id="who-are-we">
+  <section class="content-section bg-light text-center" id="who-are-we">
     <div class="container">
       <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Who are we?</h3>
-        <h4>Signpost is a collaboration among:</h4>
+        <h2 class="text-secondary mb-0">WHO WE ARE</h2>
       </div>
       <br>
       <br>
-      <div class="row" style="margin-top:10vh">
+      <p class="lead mb-5" style="padding-left: 30px; padding-right: 30px;">
+        Signpost is a collaboration among the IRC and Mercy Corps Cibo ferri instructior te ius, 
+        case volumus cum ex, magna phaedrum ocurreret has id. Te quodsi dolorem 
+        consetetur qui. Ea equidem hendrerit definitionem vis, ea labitur invidunt mea
+        vis summo omnes ad. Magna solum an usu, cum quaerendum instructior in,
+        ad graeci aperiri mei. Ex erat epicuri elaboraret vim, tantas mollis antiopam eos cu.
+      </p>
 
-        <div class="col-lg-6 col-md-6 mb-5 mb-md-0" style="display: flex;justify-content: center;flex-direction: column;">
-          <a href="https://www.mercycorps.org/" target="_blank">
-            <img src="img/logo-MC.png" alt="Mercy Corps" style="width: 300px; max-width: 100%;" />
-          </a>
-        </div>
-        <div class="col-lg-6 col-md-6 mb-5 mb-md-0" style="display: flex;justify-content: center;flex-direction: column;">
-          <a href="https://www.rescue.org/" target="_blank">
-            <img src="img/logo-IRC.png" alt="The International Rescue Committee" style="height: 180px;" />
-          </a>
-        </div>
-        <div class="col-sm-12 text-center" style="margin-top:10vh">
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#our-instances">Our instances</a>
-        </div>
-      </div>
   </section>
 
+  <section class="content-section bg-primary text-white text-center" id="partners">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3" style="display: flex;justify-content: center;padding-right: 50px;flex-direction: row;padding-top: 30px;padding-bottom: 30px;">
+          <a href="https://www.rescue.org/" target="_blank" style="padding-right: 30px">
+            <img src="img/logo-irc.png" alt="The International Rescue Committee" style="height: 132px;" />
+          </a>
+          <a href="https://www.mercycorps.org/" target="_blank">
+            <img src="img/logo-mc.png" alt="Mercy Corps" style="height: 132px;" />
+          </a>
+        </div>
+        <div class="col-lg-9" style="padding-left: 50px; padding-top: 20px; border-left: 1px solid gray">
+          <p class="lead text-left">
+            Signpost is a collaboration among the IRC and Mercy Corps Cibo ferri instructior te ius, 
+            case volumus cum ex, magna phaedrum ocurreret has id. Te quodsi dolorem 
+            consetetur qui. Ea equidem hendrerit definitionem vis, ea labitur invidunt mea
+            vis summo omnes ad. Magna solum an usu, cum quaerendum instructior in,
+            ad graeci aperiri mei. Ex erat epicuri elaboraret vim, tantas mollis antiopam eos cu.
+          </p>
+          <div class="text-left">
+            <a class="btn btn-primary js-scroll-trigger" href="#our-instances">Our instances</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="content-section" id="our-instances">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h4 class="text-secondary mb-0">Instances</h4>
+        <h2 class="text-secondary mb-0">INSTANCES</h2>
         <h2 class="mb-5"></h2>
       </div>
       <div class="row ">
-        <div class="col-lg-6">
-          <a class="" href="https://www.refugee.info/">
+        <div class="col-lg-4 text-center">
+          <a href="https://www.refugee.info/">
             <span class="caption">
               <span class="caption-content">
               </span>
             </span>
-            <img class="img-fluid" src="img/RI-Greece-logo-EN-DRK.png" alt="" width=90%>
+            <img class="img-fluid" src="img/logo-ri.png" alt="" style="padding-top: 30px; padding-bottom: 30px;max-width: 300px">
           </a>
         </div>
-        <div class="col-lg-6">
-          <a class="" href="https://www.facebook.com/Refugee.Info.Italy/">
+        <div class="col-lg-4 text-center">
+          <a href="https://www.cuentanos.org/">
             <span class="caption">
               <span class="caption-content">
               </span>
             </span>
-            <img class="img-fluid" src="img/RI-logo-SP-BG.png" alt="" width=90%>
+            <img class="img-fluid" src="img/logo-cn.png" alt="" style="padding-top: 30px; padding-bottom: 30px;max-width: 300px">
           </a>
         </div>
-        <div class="col-lg-6">
-          <a class="" href="https://www.khabrona.info/jordan/">
+        <div class="col-lg-4 text-center">
+          <a href="https://www.khabrona.info/jordan/">
             <span class="caption">
               <span class="caption-content">
               </span>
             </span>
-            <img class="img-fluid" src="img/KI-logo-SP-BG.png" alt="" width=90%>
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="" href="https://www.cuentanos.org/">
-            <span class="caption">
-              <span class="caption-content">
-              </span>
-            </span>
-            <img class="img-fluid" src="img/CN-logo-SP-BG.png" alt="" width=90%>
+            <img class="img-fluid" src="img/logo-ki.png" alt="" style="padding-top: 30px; padding-bottom: 30px;max-width: 300px">
           </a>
         </div>
       </div>
@@ -172,41 +187,19 @@
     </div>
   </section>
 
-  <!-- Portfolio -->
-
-  <section class="content-section text-white text-center featured-cnt bg1" id="featured">
-
-    <div class="container ">
-      <div class="content-section-heading">
-        <h2 class=" mb-0">Featured content</h2>
-        <h5 class="font-italic text-secondary">About the Refugee.info project</h5>
-        <br>
-        <br>
-        <br>
-          <a class="btn btn-primary js-scroll-trigger" target="_blank" style="" href="public/About-the-Refugee.Info-Project.pdf">Find Out More</a>
-      </div>
-       <img src="img/ri-featured-ctn-bg.png" data-speed="0.5" class="img-parallax">
-      <div class="row">
-
-      </div>
-  </section>
-
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
-      <ul class="list-inline mb-5">
-        <li class="list-inline-item">
-          <a class="rounded-circle text-white mr-3" href="http://fb.me/refugee.info">
-            <i class=""><img src="icons/facebook-logo-button.svg" width=40px></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="text-white rounded-circle mr-3" href="https://www.github.com/pg-irc/">
-            <i class=""><img src="icons/github-logo.svg" width=40px></i>
-          </a>
-        </li>
-      </ul>
-      <br>
-      <p class="text-muted small mb-0">Signpost Project, Copyright &copy; 2018</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="text-white small mb-0">Official Signpost website.</p>
+        </div>
+        <div class="col-lg-4">
+          <p class="text-muted small mb-0" style="font-weight: 300">Copyright &copy; <script>document.write(new Date().getFullYear())</script> SIGNPOST. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-4">
+          <p class="text-muted small mb-0"><a href="https://github.com/theirc">Github</a> <a href="#">Branding</a> <a href="#">Legal</a> <a href="contact@signpost.ngo">contact@signpost.ngo</a></p>
+        </div>
+      </div>
     </div>
   </footer>
 
@@ -225,7 +218,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-  <script></script>
+  <script src="js/navbar.js"></script>
 
 </body>
 

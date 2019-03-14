@@ -22,7 +22,7 @@ a {
 .btn-secondary {
   background-color: $secondary !important;
   border-color: $secondary !important;
-  color: $white !important;
+  color: $black !important;
   &:hover,
   &:focus,
   &:active {
@@ -37,11 +37,14 @@ a {
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
 }
 
 .bg-primary {
   background-color: $primary !important;
+}
+
+.lead {
+  font-size: 1.06rem;
 }
 
 .text-primary {
@@ -50,4 +53,11 @@ a {
 
 .text-secondary {
   color: $secondary !important;
+}
+
+.carousel-caption {
+  max-width: 60%;
+  top: 40%;
+  left: 0;
+  right: 0;
 }

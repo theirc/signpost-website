@@ -1,16 +1,9 @@
 .masthead {
-  min-height: 100vh;
+  max-height: 75vh;
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: url("../img/header-logo-sp.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #00020f;
+  overflow: hidden;
 
   h1 {
     font-size: 4rem;
@@ -24,10 +17,18 @@
   }
 
   a {
-    margin-top: 20rem;
+    margin-top: 4rem;
 
-    @media (min-width: 992px) {
-      margin-top: 25rem;
-    }
+    // @media (min-width: 992px) {
+    //   margin-top: 8rem;
+    // }
+  }
+
+  .lead {
+    font-weight: 500;
+  }
+
+  .carousel {
+    width: 100%;
   }
 }
