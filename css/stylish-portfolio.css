@@ -122,6 +122,7 @@ h6 {
 }
 
 .masthead .lead {
+  font-size: 1.3em;
   font-weight: 500;
 }
 
@@ -275,6 +276,7 @@ footer.footer .social-link:hover {
   #mainNav {
     box-shadow: none;
     background-color: transparent;
+    padding-top: 3em;
   }
   #mainNav .navbar-brand {
     background-image: url("../img/logo-sp-white.png");
@@ -294,6 +296,7 @@ footer.footer .social-link:hover {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
+    padding-top: 8px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
@@ -347,6 +350,7 @@ a:hover, a:focus, a:active {
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
 }
 
 .bg-primary {
