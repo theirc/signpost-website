@@ -282,6 +282,7 @@ footer.footer .social-link:hover {
 
 .masthead .carousel .carousel-caption {
   max-width: 60%;
+  top: 20%;
 }
 
 @media (min-width: 1200px) {
