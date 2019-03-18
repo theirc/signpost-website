@@ -13,19 +13,21 @@
       @include media-breakpoint-up(lg) {
         top: 45%;
       }
+      
+      .intro {
+        min-height: 60%;
+        .lead {
+          color: $white;
+          font-size: 1.3em;
+          font-weight: 500;
+          @include media-breakpoint-up(xl) {
+            font-size: 1.63em;
+          }
+        }
+      }
 
       a {
-        margin-top: 3vh;
         padding: 10px 20px;
-      }
-      
-      .lead {
-        color: $white;
-        font-size: 1.3em;
-        font-weight: 500;
-        @include media-breakpoint-up(xl) {
-          font-size: 1.63em;
-        }
       }
     }
   }
