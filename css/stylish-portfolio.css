@@ -97,9 +97,37 @@ h6 {
   font-weight: 800;
 }
 
-#partners .lead {
+#partners .logos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 50px;
+}
+
+#partners .logos a {
+  padding: 20px;
+}
+
+#partners .logos a img {
+  height: 132px;
+}
+
+#partners .text-left {
+  padding: 10px 0 15px 25px;
+  border-left: 1px solid gray;
+}
+
+#partners .text-left .lead {
   color: #adb5bd;
   font-size: 1.26rem;
+  padding-bottom: 15px;
+}
+
+#our-instances img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 300px;
 }
 
 .service-icon {
@@ -198,6 +226,10 @@ footer.footer {
   padding-bottom: 3rem;
 }
 
+footer.footer .copyright .small {
+  font-weight: 300;
+}
+
 footer.footer a {
   color: gray;
   margin: 10px;
@@ -271,9 +303,11 @@ footer.footer .social-link:hover {
 }
 
 #mainNav .navbar-brand {
-  color: #212529;
   background-image: url("../img/logo-sp.png");
   background-size: cover;
+  color: #212529;
+  width: 132px;
+  height: 40px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {

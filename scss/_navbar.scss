@@ -4,9 +4,11 @@
 	background-color: $white;
 	transition: background-color 0.2s ease;
 	.navbar-brand {
-		color: $gray-900;
 		background-image: url('../img/logo-sp.png');
 		background-size: cover;
+		color: $gray-900;
+		width: 132px;
+		height: 40px;
 	}
 	.navbar-nav {
 		.nav-item {
