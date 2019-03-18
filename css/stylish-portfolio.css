@@ -97,37 +97,9 @@ h6 {
   font-weight: 800;
 }
 
-.masthead {
-  max-height: 75vh;
-  position: relative;
-  display: table;
-  width: 100%;
-  overflow: hidden;
-}
-
-.masthead h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 992px) {
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.masthead a {
-  margin-top: 4rem;
-}
-
-.masthead .lead {
-  font-size: 1.3em;
-  font-weight: 500;
-}
-
-.masthead .carousel {
-  width: 100%;
+#partners .lead {
+  color: #adb5bd;
+  font-size: 1.26rem;
 }
 
 .service-icon {
@@ -228,6 +200,7 @@ footer.footer {
 
 footer.footer a {
   color: gray;
+  margin: 10px;
 }
 
 footer.footer .social-link {
@@ -244,6 +217,51 @@ footer.footer .social-link {
 footer.footer .social-link:hover {
   background-color: #0a0a0a;
   text-decoration: none;
+}
+
+.masthead {
+  max-height: 75vh;
+  position: relative;
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.masthead a {
+  margin-top: 4rem;
+  padding: 10px 20px;
+}
+
+.masthead .carousel {
+  width: 100%;
+}
+
+.masthead .carousel .carousel-caption {
+  max-width: 60%;
+}
+
+@media (min-width: 1200px) {
+  .masthead .carousel .carousel-caption {
+    max-width: 50%;
+  }
+}
+
+.masthead .carousel .carousel-caption .lead {
+  color: #fff;
+  font-size: 1.63em;
+  font-weight: 500;
 }
 
 #mainNav {
@@ -358,6 +376,7 @@ a:hover, a:focus, a:active {
 }
 
 .lead {
+  color: #8b8b8a;
   font-size: 1.06rem;
 }
 
@@ -367,11 +386,4 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
-}
-
-.carousel-caption {
-  max-width: 60%;
-  top: 40%;
-  left: 0;
-  right: 0;
 }

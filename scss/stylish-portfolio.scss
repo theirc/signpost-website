@@ -1,14 +1,14 @@
 @import "variables";
 @import "mixins";
 @import "global";
-@import "masthead";
 // @import "sidebar";
 @import "services";
 @import "callout";
 @import "portfolio";
-@import "footer";
 @import "vendor/bootstrap/scss/functions";
 @import "vendor/bootstrap/scss/variables";
 @import "vendor/bootstrap/scss/_breakpoints";
+@import "footer";
+@import "masthead";
 @import "navbar";
 @import "bootstrap-overrides";

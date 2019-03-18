@@ -45,6 +45,7 @@ a {
 }
 
 .lead {
+  color: $gray-550;
   font-size: 1.06rem;
 }
 
@@ -56,9 +57,3 @@ a {
   color: $secondary !important;
 }
 
-.carousel-caption {
-  max-width: 60%;
-  top: 40%;
-  left: 0;
-  right: 0;
-}
