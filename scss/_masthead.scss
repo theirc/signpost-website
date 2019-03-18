@@ -1,39 +1,31 @@
 .masthead {
-  max-height: 75vh;
+  max-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
   overflow: hidden;
 
-  h1 {
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
-  }
-  @media (min-width: 992px) {
-    h1 {
-      font-size: 5.5rem;
-    }
-  }
-
-  a {
-    margin-top: 4rem;
-    padding: 10px 20px;
-  }
-
   .carousel {
     width: 100%;
     .carousel-caption {
       max-width: 60%;
-      top: 20%;
-      
-      @include media-breakpoint-up(xl) {
-        max-width: 50%;
+      top: 30%;
+      @include media-breakpoint-up(lg) {
+        top: 45%;
       }
+
+      a {
+        margin-top: 3vh;
+        padding: 10px 20px;
+      }
+      
       .lead {
         color: $white;
-        font-size: 1.63em;
+        font-size: 1.3em;
         font-weight: 500;
+        @include media-breakpoint-up(xl) {
+          font-size: 1.63em;
+        }
       }
     }
   }
