@@ -230,25 +230,21 @@ footer.footer .copyright .small {
   font-weight: 300;
 }
 
+@media (min-width: 992px) {
+  footer.footer .copyright {
+    text-align: left;
+  }
+}
+
 footer.footer a {
   color: gray;
   margin: 10px;
 }
 
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #232323;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-footer.footer .social-link:hover {
-  background-color: #0a0a0a;
-  text-decoration: none;
+@media (min-width: 992px) {
+  footer.footer .social {
+    text-align: right;
+  }
 }
 
 .masthead {
@@ -274,21 +270,24 @@ footer.footer .social-link:hover {
   }
 }
 
-.masthead .carousel .carousel-caption a {
-  margin-top: 3vh;
-  padding: 10px 20px;
+.masthead .carousel .carousel-caption .intro {
+  min-height: 60%;
 }
 
-.masthead .carousel .carousel-caption .lead {
+.masthead .carousel .carousel-caption .intro .lead {
   color: #fff;
   font-size: 1.3em;
   font-weight: 500;
 }
 
 @media (min-width: 1200px) {
-  .masthead .carousel .carousel-caption .lead {
+  .masthead .carousel .carousel-caption .intro .lead {
     font-size: 1.63em;
   }
+}
+
+.masthead .carousel .carousel-caption a {
+  padding: 10px 20px;
 }
 
 #mainNav {
