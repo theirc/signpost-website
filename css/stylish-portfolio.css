@@ -252,28 +252,11 @@ footer.footer .social-link:hover {
 }
 
 .masthead {
-  max-height: 75vh;
+  max-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
   overflow: hidden;
-}
-
-.masthead h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 992px) {
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.masthead a {
-  margin-top: 4rem;
-  padding: 10px 20px;
 }
 
 .masthead .carousel {
@@ -282,19 +265,30 @@ footer.footer .social-link:hover {
 
 .masthead .carousel .carousel-caption {
   max-width: 60%;
-  top: 20%;
+  top: 30%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .masthead .carousel .carousel-caption {
-    max-width: 50%;
+    top: 45%;
   }
+}
+
+.masthead .carousel .carousel-caption a {
+  margin-top: 3vh;
+  padding: 10px 20px;
 }
 
 .masthead .carousel .carousel-caption .lead {
   color: #fff;
-  font-size: 1.63em;
+  font-size: 1.3em;
   font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .masthead .carousel .carousel-caption .lead {
+    font-size: 1.63em;
+  }
 }
 
 #mainNav {
