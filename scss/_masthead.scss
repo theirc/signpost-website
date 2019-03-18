@@ -18,17 +18,22 @@
 
   a {
     margin-top: 4rem;
-
-    // @media (min-width: 992px) {
-    //   margin-top: 8rem;
-    // }
-  }
-
-  .lead {
-    font-weight: 500;
+    padding: 10px 20px;
   }
 
   .carousel {
     width: 100%;
+    .carousel-caption {
+      max-width: 60%;
+      
+      @include media-breakpoint-up(xl) {
+        max-width: 50%;
+      }
+      .lead {
+        color: $white;
+        font-size: 1.63em;
+        font-weight: 500;
+      }
+    }
   }
 }

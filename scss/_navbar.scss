@@ -26,34 +26,36 @@
 	}
 	
 	@include media-breakpoint-up(lg) {
-	  // Base styling for the navbar - screen sizes greater than the large breakpoint
+		// Base styling for the navbar - screen sizes greater than the large breakpoint
 	  box-shadow: none;
-	  background-color: transparent;
+		background-color: transparent;
+		padding-top: 3em;
 	  .navbar-brand {
 			background-image: url('../img/logo-sp-white.png');
-		color: fade-out($white, .3);
-		&:hover {
-		  color: $white;
-		}
+			color: fade-out($white, .3);
+			&:hover {
+				color: $white;
+			}
 	  }
 	  .navbar-nav {
-		.nav-item {
-		  .nav-link {
-			color: fade-out($white, .3);
-			padding: 0 1rem;
-			&:hover {
-			  color: $white;
+			.nav-item {
+				.nav-link {
+					color: fade-out($white, .3);
+					padding: 0 1rem;
+					&:hover {
+						color: $white;
+					}
+				}
+				&:last-child {
+					.nav-link {
+						padding-right: 0;
+					}
+				}
 			}
-		  }
-		  &:last-child {
-			.nav-link {
-			  padding-right: 0;
-			}
-		  }
-		}
 	  }
 	  // Navbar styling applied when the page is scrolled
 	  &.navbar-scrolled {
+		padding-top: 8px;
 		box-shadow: $box-shadow;
 		background-color: $white;
 		.navbar-brand {
