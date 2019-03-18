@@ -113,8 +113,34 @@ h6 {
 }
 
 #partners {
-  .lead {
-    color: $gray-500;
-    font-size: 1.26rem;
+  .logos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 50px;
+    a {
+      padding: 20px;
+      img {
+        height: 132px;
+      }
+    }
+  }
+  .text-left {
+    padding: 10px 0 15px 25px;
+    border-left: 1px solid gray;
+    .lead {
+      color: $gray-500;
+      font-size: 1.26rem;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+#our-instances {
+  img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 300px;
   }
 }

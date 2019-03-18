@@ -2,6 +2,11 @@ footer.footer {
   background-color: $gray-1000;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  .copyright {
+    .small {
+      font-weight: 300;
+    }
+  }
   a {
     color: gray;
     margin: 10px;
