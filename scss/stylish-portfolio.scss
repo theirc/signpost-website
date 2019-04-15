@@ -1,6 +1,5 @@
 @import "variables";
 @import "mixins";
-@import "global";
 // @import "sidebar";
 @import "services";
 @import "callout";
@@ -8,6 +7,7 @@
 @import "vendor/bootstrap/scss/functions";
 @import "vendor/bootstrap/scss/variables";
 @import "vendor/bootstrap/scss/_breakpoints";
+@import "global";
 @import "footer";
 @import "masthead";
 @import "navbar";
