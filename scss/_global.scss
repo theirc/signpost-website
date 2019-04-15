@@ -112,7 +112,7 @@ h6 {
   }
 }
 
-#partners {
+#who-we-are {
   .logos {
     display: flex;
     justify-content: center;
@@ -127,7 +127,7 @@ h6 {
     }
   }
   .text-left {
-    padding: 10px 0 15px 25px;
+    padding: 20px 0 0 50px;
     border-left: 1px solid gray;
     .lead {
       color: $gray-500;

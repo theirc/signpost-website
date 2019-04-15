@@ -187,7 +187,7 @@ h6 {
   font-weight: 800;
 }
 
-#partners .logos {
+#who-we-are .logos {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -195,20 +195,20 @@ h6 {
   padding-right: 50px;
 }
 
-#partners .logos a {
+#who-we-are .logos a {
   padding: 20px;
 }
 
-#partners .logos a img {
+#who-we-are .logos a img {
   height: 132px;
 }
 
-#partners .text-left {
-  padding: 10px 0 15px 25px;
+#who-we-are .text-left {
+  padding: 20px 0 0 50px;
   border-left: 1px solid gray;
 }
 
-#partners .text-left .lead {
+#who-we-are .text-left .lead {
   color: #adb5bd;
   font-size: 1.26rem;
 }
