@@ -132,7 +132,6 @@ h6 {
     .lead {
       color: $gray-500;
       font-size: 1.26rem;
-      padding-bottom: 15px;
     }
   }
 }
@@ -142,5 +141,10 @@ h6 {
     padding-top: 30px;
     padding-bottom: 30px;
     max-width: 300px;
+  }
+  @include media-breakpoint-up(lg) {
+    .lead {
+      margin: 0 10%;
+    }
   }
 }
