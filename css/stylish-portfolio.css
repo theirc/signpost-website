@@ -203,13 +203,18 @@ h6 {
 }
 
 #who-we-are .text-left {
-  padding: 20px 0 0 50px;
-  border-left: 1px solid #8b8b8a;
+  padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+  #who-we-are .text-left {
+    border-left: 1px solid #8b8b8a;
+    padding: 20px 0 0 50px;
+  }
 }
 
 #who-we-are .text-left .lead {
   color: #adb5bd;
-  font-size: 1.26rem;
 }
 
 @media (min-width: 992px) {
@@ -225,7 +230,7 @@ h6 {
 #instance-box .tab {
   border-bottom: 1px solid #e5e5e5;
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 45px;
 }
 
 @media (min-width: 992px) {

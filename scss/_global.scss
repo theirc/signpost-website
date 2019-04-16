@@ -126,11 +126,13 @@ h6 {
     }
   }
   .text-left {
-    padding: 20px 0 0 50px;
-    border-left: 1px solid #8b8b8a;
+    padding-top: 50px;
+    @include media-breakpoint-up(lg) {
+      border-left: 1px solid #8b8b8a;
+      padding: 20px 0 0 50px;
+    }  
     .lead {
       color: $gray-500;
-      font-size: 1.26rem;
     }
   }
 }
@@ -148,7 +150,7 @@ h6 {
   .tab {
     border-bottom: 1px solid #e5e5e5;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 45px;
 
     @include media-breakpoint-up(lg) {
       border-bottom: none;
