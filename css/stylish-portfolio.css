@@ -103,8 +103,7 @@ body {
 }
 
 .content-section {
-  padding-top: 4rem;
-  padding-bottom: 3.25rem;
+  padding: 4rem 0;
 }
 
 .img-parallax {
