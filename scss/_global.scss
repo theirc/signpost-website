@@ -17,8 +17,7 @@ body {
 
 // Content Section
 .content-section {
-  padding-top: 4rem;
-  padding-bottom: 3.25rem;
+  padding: 4rem 0;
 }
 
 .img-parallax {
@@ -138,13 +137,43 @@ h6 {
 
 #our-instances {
   img{
+    border-bottom: 1px solid gray;
+    max-width: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 300px;
+    &.last {
+      border-bottom: none;
+    }
   }
   @include media-breakpoint-up(lg) {
-    .lead {
+    .lead.mb-5 {
       margin: 0 10%;
+    }
+  }
+}
+
+#instance-box {
+  padding-top: 100px;
+  .tab {
+    opacity: 0.5;
+    border-right: solid 1px #979797;
+    min-height: 800px;
+    .tablinks {
+      border: none;
+    }
+  }
+  .tabcontent {
+    display: none;
+    margin-left: 40px;
+    h2 {
+      padding-bottom: 30px;
+      text-align: center;
+    }
+    span {
+      width: 560px;
+      height: 316px;
+      background-color: #979797;
+      display: block;
     }
   }
 }
