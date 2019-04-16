@@ -214,15 +214,51 @@ h6 {
 }
 
 #our-instances img {
+  border-bottom: 1px solid gray;
+  max-width: 300px;
   padding-top: 30px;
   padding-bottom: 30px;
-  max-width: 300px;
+}
+
+#our-instances img.last {
+  border-bottom: none;
 }
 
 @media (min-width: 992px) {
-  #our-instances .lead {
+  #our-instances .lead.mb-5 {
     margin: 0 10%;
   }
+}
+
+#instance-box {
+  padding-top: 100px;
+}
+
+#instance-box .tab {
+  opacity: 0.5;
+  border-right: solid 1px #979797;
+  min-height: 800px;
+}
+
+#instance-box .tab .tablinks {
+  border: none;
+}
+
+#instance-box .tabcontent {
+  display: none;
+  margin-left: 40px;
+}
+
+#instance-box .tabcontent h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#instance-box .tabcontent span {
+  width: 560px;
+  height: 316px;
+  background-color: #979797;
+  display: block;
 }
 
 footer.footer {
@@ -253,7 +289,6 @@ footer.footer a {
 }
 
 .masthead {
-  max-height: 100vh;
   position: relative;
   display: table;
   width: 100%;
