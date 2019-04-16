@@ -234,13 +234,17 @@ h6 {
 }
 
 #instance-box .tab {
-  opacity: 0.5;
   border-right: solid 1px #979797;
   min-height: 800px;
 }
 
 #instance-box .tab .tablinks {
   border: none;
+  opacity: 0.5;
+}
+
+#instance-box .tab .tablinks.active {
+  opacity: 1;
 }
 
 #instance-box .tabcontent {
@@ -264,6 +268,7 @@ footer.footer {
   background-color: #222222;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  color: #a7a7a7;
 }
 
 footer.footer .copyright .small {
@@ -276,8 +281,12 @@ footer.footer .copyright .small {
   }
 }
 
+footer.footer .social p {
+  font-weight: bold;
+}
+
 footer.footer a {
-  color: gray;
+  color: #a7a7a7;
   margin: 10px;
 }
 

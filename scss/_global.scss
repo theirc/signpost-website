@@ -155,11 +155,14 @@ h6 {
 #instance-box {
   padding-top: 100px;
   .tab {
-    opacity: 0.5;
     border-right: solid 1px #979797;
     min-height: 800px;
     .tablinks {
       border: none;
+      opacity: 0.5;
+      &.active {
+        opacity: 1;
+      }
     }
   }
   .tabcontent {

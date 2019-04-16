@@ -2,6 +2,8 @@ footer.footer {
   background-color: $gray-1000;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  color: #a7a7a7;
+  
   .copyright {
     .small {
       font-weight: 300;
@@ -11,8 +13,13 @@ footer.footer {
       text-align: left;
     }
   }
+  .social {
+    p {
+      font-weight: bold;
+    }
+  }
   a {
-    color: gray;
+    color: #a7a7a7;
     margin: 10px;
   }
   
