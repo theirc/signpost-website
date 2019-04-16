@@ -127,7 +127,7 @@ h6 {
   }
   .text-left {
     padding: 20px 0 0 50px;
-    border-left: 1px solid gray;
+    border-left: 1px solid #8b8b8a;
     .lead {
       color: $gray-500;
       font-size: 1.26rem;
@@ -136,15 +136,6 @@ h6 {
 }
 
 #our-instances {
-  img{
-    border-bottom: 1px solid gray;
-    max-width: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    &.last {
-      border-bottom: none;
-    }
-  }
   @include media-breakpoint-up(lg) {
     .lead.mb-5 {
       margin: 0 10%;
@@ -155,8 +146,30 @@ h6 {
 #instance-box {
   padding-top: 100px;
   .tab {
-    border-right: solid 1px #979797;
-    min-height: 800px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    margin-bottom: 100px;
+
+    @include media-breakpoint-up(lg) {
+      border-bottom: none;
+      border-right: solid 1px #e5e5e5;
+      display: block;
+      min-height: 800px;
+    }
+
+    img {
+      border-bottom: none;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      &.last {
+        border-bottom: none;
+      }
+      @include media-breakpoint-up(lg) {
+        border-bottom: 1px solid #e5e5e5;
+        max-width: 300px;
+      }
+    }
+    
     .tablinks {
       border: none;
       opacity: 0.5;
@@ -167,7 +180,9 @@ h6 {
   }
   .tabcontent {
     display: none;
-    margin-left: 40px;
+    @include media-breakpoint-up(lg) {
+      margin-left: 40px;
+    }
     h2 {
       padding-bottom: 30px;
       text-align: center;

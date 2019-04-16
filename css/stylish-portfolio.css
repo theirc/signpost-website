@@ -204,23 +204,12 @@ h6 {
 
 #who-we-are .text-left {
   padding: 20px 0 0 50px;
-  border-left: 1px solid gray;
+  border-left: 1px solid #8b8b8a;
 }
 
 #who-we-are .text-left .lead {
   color: #adb5bd;
   font-size: 1.26rem;
-}
-
-#our-instances img {
-  border-bottom: 1px solid gray;
-  max-width: 300px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#our-instances img.last {
-  border-bottom: none;
 }
 
 @media (min-width: 992px) {
@@ -234,8 +223,35 @@ h6 {
 }
 
 #instance-box .tab {
-  border-right: solid 1px #979797;
-  min-height: 800px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  #instance-box .tab {
+    border-bottom: none;
+    border-right: solid 1px #e5e5e5;
+    display: block;
+    min-height: 800px;
+  }
+}
+
+#instance-box .tab img {
+  border-bottom: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#instance-box .tab img.last {
+  border-bottom: none;
+}
+
+@media (min-width: 992px) {
+  #instance-box .tab img {
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 300px;
+  }
 }
 
 #instance-box .tab .tablinks {
@@ -249,7 +265,12 @@ h6 {
 
 #instance-box .tabcontent {
   display: none;
-  margin-left: 40px;
+}
+
+@media (min-width: 992px) {
+  #instance-box .tabcontent {
+    margin-left: 40px;
+  }
 }
 
 #instance-box .tabcontent h2 {
