@@ -261,6 +261,7 @@ h6 {
 
 #instance-box .tab .tablinks {
   border: none;
+  cursor: pointer;
   opacity: 0.5;
 }
 
