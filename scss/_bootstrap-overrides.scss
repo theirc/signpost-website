@@ -6,15 +6,20 @@ a {
     color: darken($primary, 10%);
   }
 }
+.cta {
+  margin-top: 50px;
+  text-align: center;
+}
 
 .btn-primary {
-  background-color: #232323 !important;
-  border-color: white !important;
+  background-color: #63d4d7 !important;
+  border-color: #63d4d7 !important;
   color: $white !important;
+  font-size: 1em !important;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken(#232323, 10%) !important;
+    background-color: darken(#63d4d7, 10%) !important;
   }
 }
 

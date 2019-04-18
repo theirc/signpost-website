@@ -459,14 +459,20 @@ a:hover, a:focus, a:active {
   color: #0a0a0a;
 }
 
+.cta {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .btn-primary {
-  background-color: #232323 !important;
-  border-color: white !important;
+  background-color: #63d4d7 !important;
+  border-color: #63d4d7 !important;
   color: #fff !important;
+  font-size: 1em !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #0a0a0a !important;
+  background-color: #3ac9cd !important;
 }
 
 .btn-secondary {
