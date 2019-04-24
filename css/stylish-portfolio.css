@@ -95,7 +95,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'europa';
 }
 
 .btn-xl {
@@ -261,6 +261,7 @@ h6 {
 
 #instance-box .tab .tablinks {
   border: none;
+  cursor: pointer;
   opacity: 0.5;
 }
 
@@ -279,6 +280,7 @@ h6 {
 }
 
 #instance-box .tabcontent h2 {
+  font-size: 2.35rem;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -468,7 +470,8 @@ a:hover, a:focus, a:active {
   background-color: #63d4d7 !important;
   border-color: #63d4d7 !important;
   color: #fff !important;
-  font-size: 1em !important;
+  font-size: 1rem !important;
+  padding: 8px 27px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
