@@ -26,6 +26,12 @@ gulp.task('vendor', function() {
       '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
     .pipe(gulp.dest('./vendor/bootstrap'))
+  gulp.src([
+      './node_modules/bootstrap/scss/_functions.scss',
+      './node_modules/bootstrap/scss/_variables.scss',
+      './node_modules/bootstrap/scss/mixins/_breakpoints.scss',
+    ])
+    .pipe(gulp.dest('./vendor/bootstrap/scss'))
 
   // Font Awesome
   gulp.src([

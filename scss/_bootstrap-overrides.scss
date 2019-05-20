@@ -6,15 +6,21 @@ a {
     color: darken($primary, 10%);
   }
 }
+.cta {
+  margin-top: 50px;
+  text-align: center;
+}
 
 .btn-primary {
-  background-color: #232323 !important;
-  border-color: white !important;
+  background-color: #63d4d7 !important;
+  border-color: #63d4d7 !important;
   color: $white !important;
+  font-size: 1rem !important;
+  padding: 8px 27px;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken(#232323, 10%) !important;
+    background-color: darken(#63d4d7, 10%) !important;
   }
 }
 
@@ -22,7 +28,7 @@ a {
 .btn-secondary {
   background-color: $secondary !important;
   border-color: $secondary !important;
-  color: $white !important;
+  color: $black !important;
   &:hover,
   &:focus,
   &:active {
@@ -37,11 +43,16 @@ a {
 
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
+  font-size: 0.8em;
 }
 
 .bg-primary {
   background-color: $primary !important;
+}
+
+.lead {
+  color: $gray-550;
+  font-size: 1.5rem;
 }
 
 .text-primary {
@@ -51,3 +62,4 @@ a {
 .text-secondary {
   color: $secondary !important;
 }
+
