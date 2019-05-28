@@ -12,28 +12,30 @@ a {
 }
 
 .btn-primary {
-  background-color: #63d4d7 !important;
-  border-color: #63d4d7 !important;
-  color: $white !important;
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+  color: $black !important;
   font-size: 1rem !important;
   padding: 8px 27px;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken(#63d4d7, 10%) !important;
+    background-color: darken($secondary, 10%) !important;
   }
 }
 
 
-.btn-secondary {
-  background-color: $secondary !important;
-  border-color: $secondary !important;
-  color: $black !important;
+.btn-cn {
+  background-color: $cn-primary !important;
+  border-color: $cn-primary !important;
+  color: $white !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($secondary, 10%) !important;
-    border-color: darken($secondary, 10%) !important;
+    background-color: darken($cn-primary, 10%) !important;
+    border-color: darken($cn-primary, 10%) !important;
   }
 }
 
@@ -51,7 +53,7 @@ a {
 }
 
 .lead {
-  color: $gray-550;
+  color: $gray-800;
   font-size: 1.5rem;
 }
 
