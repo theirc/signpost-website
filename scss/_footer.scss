@@ -2,8 +2,16 @@ footer.footer {
   background-color: $gray-1000;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #a7a7a7;
+  color: $white;
   
+  .logo span {
+    background-image: url('../img/logo-sp-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 152px;
+    height: 46px;
+  }
   .copyright {
     .small {
       font-weight: 300;
@@ -19,7 +27,7 @@ footer.footer {
     }
   }
   a {
-    color: #a7a7a7;
+    color: $white;
     margin: 10px;
   }
   
