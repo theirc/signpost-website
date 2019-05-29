@@ -144,7 +144,11 @@ h6 {
     }
   }
   img.d-block {
-    width: 100%;
+    width: 30%;
+    margin: 0 auto 2rem;
+    @include media-breakpoint-up(lg) {
+      width: 100%;
+    }
   }
   .intro {
     color: $gray-800;
@@ -152,8 +156,14 @@ h6 {
       height: 80px;
       margin-bottom: 20px;
     }
+    hr {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
     .row {
-      margin: 50px auto;
+      div {
+        margin-bottom: 3rem;
+      }
       img {
         display: block;
         margin: 10px auto;
