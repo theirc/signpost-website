@@ -214,7 +214,7 @@ h6 {
 }
 
 #who-we-are .text-left .lead {
-  color: #adb5bd;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -223,8 +223,85 @@ h6 {
   }
 }
 
+#our-instances img.d-block {
+  width: 30%;
+  margin: 0 auto 2rem;
+}
+
+@media (min-width: 992px) {
+  #our-instances img.d-block {
+    width: 100%;
+  }
+}
+
+#our-instances .intro {
+  color: #343a40;
+}
+
+#our-instances .intro .title {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+#our-instances .intro hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#our-instances .intro .row div {
+  margin-bottom: 3rem;
+}
+
+#our-instances .intro .row span {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: center;
+}
+
+#our-instances .intro .row span img {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+#about .unique {
+  margin: 100px auto 50px;
+}
+
+#about .unique img {
+  height: 70px;
+  margin: 57px 0 57px;
+}
+
+#about .unique h3 {
+  font-size: 2.25rem;
+}
+
+#about .unique p {
+  color: #343a40;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
 #instance-box {
-  padding-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 40px 40px 80px;
+}
+
+#instance-box .carousel-indicators .active {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+#instance-box .carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  margin: auto 8px;
+  border-radius: 50%;
+  border: 1px solid #868e96;
 }
 
 #instance-box .tab {
@@ -308,11 +385,24 @@ h6 {
   height: 100%;
 }
 
+#contact .row {
+  align-items: center;
+}
+
 footer.footer {
   background-color: #222222;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #a7a7a7;
+  color: #fff;
+}
+
+footer.footer .logo span {
+  background-image: url("../img/logo-sp-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 152px;
+  height: 46px;
 }
 
 footer.footer .copyright .small {
@@ -330,7 +420,7 @@ footer.footer .social p {
 }
 
 footer.footer a {
-  color: #a7a7a7;
+  color: #fff;
   margin: 10px;
 }
 
@@ -467,26 +557,28 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #63d4d7 !important;
-  border-color: #63d4d7 !important;
-  color: #fff !important;
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: #000 !important;
   font-size: 1rem !important;
   padding: 8px 27px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #3ac9cd !important;
-}
-
-.btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #000 !important;
-}
-
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
+}
+
+.btn-cn {
+  background-color: #2a9847 !important;
+  border-color: #2a9847 !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
+}
+
+.btn-cn:hover, .btn-cn:focus, .btn-cn:active {
+  background-color: #1f7034 !important;
+  border-color: #1f7034 !important;
 }
 
 .btn-dark {
@@ -503,7 +595,7 @@ a:hover, a:focus, a:active {
 }
 
 .lead {
-  color: #8b8b8a;
+  color: #343a40;
   font-size: 1.5rem;
 }
 

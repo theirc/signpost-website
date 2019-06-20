@@ -75,7 +75,7 @@
               </p>
             </div>
             <div>
-              <a class="btn btn-secondary js-scroll-trigger" href="#about">FIND OUT MORE</a>
+              <a class="btn btn-primary js-scroll-trigger" href="#about">FIND OUT MORE</a>
             </div>
           </div>
         </div>
@@ -96,6 +96,32 @@
         accessible and timely information that matters most to people affected by conflict and disaster.
       </p>
       <!-- <a class="btn btn-outline-dark js-scroll-trigger" href="#who-are-we">Who we are</a> -->
+    </div>
+    <div class="container text-center unique">
+      <h3>What's unique about Signpost?</h3>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/about-1.png"/>
+          <h3>Scale &amp; Reach</h3>
+          <p><em>Over 1 million people reached</em></p>
+          <p>Crisis-affected people rely on us in Greece, Italy, Jordan and El Salvador</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/about-2.png"/>
+          <h3>User trust</h3>
+          <p><em>The go-to source for information</em></p>
+          <p>Over 88% of users surveyed in Europe and Jordan trust Signpost information</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/about-3.png"/>
+          <h3>User-centered</h3>
+          <p><em>Responsive within 24 hours</em></p>
+          <p>Empowering crisis-affected people to be informed decision-makers</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -118,7 +144,7 @@
           <p class="lead">
             Signpost was launched by IRC and Mercy Corps in 2015 at the height of the European refugee crisis.
             This initiative was designed to respond directly to the needs of refugees arriving in Greece with nothing but their cell phones.
-            Since then, we have developed three Signpost instances: Refugee.Info in Europe, CuentaNos in El Salvador and Khabrona in Jordan --
+            Since then, we have developed three Signpost instances: Refugee.info in Europe, Cu&eacute;ntaNos in El Salvador and Khabrona in Jordan --
             reaching over 1 million users. Supported by our core protection principles and best practices at the foundation, each instance has
             a customized portfolio of digital products tailored to the needs and technology preferences of local crisis-affected populations.
           </p>
@@ -138,65 +164,129 @@
         Signpost instances receive guidance and quality assurance through a central global team of IRC and Mercy Corps experts
         in product management, protection technical assistance, social media, and journalism.
       </p>
-      <hr style="width: 25%">
-      <div class="row" id="instance-box">
-        <div class="col-lg-4 text-center tab">
-          <div class="tablinks" onclick="openInstance(event, 'refugee')">
-            <img class="img-fluid" src="img/logo-ri.png" alt="">
-          </div>
-          <div class="tablinks" onclick="openInstance(event, 'khabrona')">
-            <img class="img-fluid" src="img/logo-ki.png" alt="">
-          </div>
-          <div class="tablinks" onclick="openInstance(event, 'cuentanos')">
-            <img class="img-fluid last" src="img/logo-cn.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div id="refugee" class="tabcontent">
-            <h2>REFUGEE.INFO</h2>
-            <p class="lead">
-              The <a target="_blank" href="https://www.refugee.info/">Refugee.Info</a> platform provides timely, accurate,
-              and useful information to refugees in Europe. The team hails from around Europe, the Middle East, South Asia,
-              Africa, and the Americas, made up of nearly 60% asylum-seekers and refugees.
-            </p>
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Frefugee.info%2Fvideos%2F1790141031046036%2F&show_text=0&width=267"
-              width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-            <div class="cta">
-              <a class="btn btn-primary js-scroll-trigger" target="_blank" href="https://www.refugee.info/">FIND OUT MORE</a>
+      <div id="instance-box" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#instance-box" data-slide-to="0" class="active"></li>
+              <li data-target="#instance-box" data-slide-to="1"></li>
+              <li data-target="#instance-box" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block" src="img/mockup-cn.png" alt="CuentaNos">
+                </div>
+                <div class="col-lg-8">
+                  <div class="text-center">
+                    <div class="intro">
+                      <img class="title" src="img/logo-cn.png" />
+                      <p class="lead">
+                          <a href="https://www.cuentanos.org/" target="_blank">CuentaNos.org</a> is a dynamic service mapping platform 
+                          which compiles vital information about civil society and governmental services, their locations, contact 
+                          information and how to access them.
+                        <br>
+                      </p>
+                      <hr style="width: 50%">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-pinpoint.png"></span>
+                          Profiles 1,000+ sites to get help
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-building.png"></span>
+                          Connects 100+ service providers
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-perm.png"></span>
+                          Reaches users with interactive service map and website
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <a class="btn btn-cn js-scroll-trigger" href="https://www.cuentanos.org/" target="_blank">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block" src="img/mockup-ri.png" alt="RefugeeInfo">
+                </div>
+                <div class="col-lg-8">
+                  <div class="text-center">
+                    <div class="intro">
+                      <img class="title" src="img/logo-ri.png" />
+                      <p class="lead">
+                          The <a href="https://www.refugee.info/" target="_blank">Refugee.info</a> platform provides timely, accurate, and useful information to refugees in Europe.
+                          Over 50% of our team here are refugees and asylum-seekers themselves. 
+                        <br>
+                      </p>
+                      <br />
+                      <hr style="width: 50%">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-globe.png"></span>
+                          Delivers information in five languages
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-eye.png"></span>
+                          Reaches ~70% of refugees in Greece
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-thumb.png"></span>
+                          Reached more than 1.2 million users through Facebook and website
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <a class="btn btn-cn js-scroll-trigger" href="https://www.refugee.info/" target="_blank">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="d-block" src="img/mockup-ki.png" alt="Khabrona">
+                </div>
+                <div class="col-lg-8">
+                  <div class="text-center">
+                    <div class="intro">
+                      <img class="title" src="img/logo-ki.png" />
+                      <p class="lead">
+                        <a href="https://www.khabrona.info/" target="_blank">Khabrona</a> provides accurate and reliable information on the civil and legal information relevant to Syrian refugees living in Jordan.
+                        <br>
+                      </p>
+                      <br />
+                      <hr style="width: 50%">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-perm.png"></span>
+                          Supports user-base of >30% women
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-eye.png"></span>
+                          Provides ~30,000 refugees with integration information
+                        </div>
+                        <div class="col-lg-4">
+                          <span><img src="img/instance-thumb.png"></span>
+                          Reaches users through Facebook and website
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <a class="btn btn-cn js-scroll-trigger" href="https://www.khabrona.info/" target="_blank">FIND OUT MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="khabrona" class="tabcontent">
-            <h2>KHABRONA.INFO</h2>
-            <p class="lead">
-                The <a target="_blank" href="https://www.khabrona.info/">Khabrona.info</a> platform provides accurate and reliable information
-                on the civil and legal information relevant to  Syrian refugees living in Jordan.
-            </p>
-            <div class="videoWrapper">
-              <iframe src="https://www.youtube.com/embed/P5Ds9BtEDcM" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
-            </div>
-            <div class="cta">
-              <a class="btn btn-primary js-scroll-trigger" target="_blank" href="https://www.khabrona.info/">FIND OUT MORE</a>
-            </div>
-          </div>
-          <div id="cuentanos" class="tabcontent">
-            <h2>CUENTANOS.ORG</h2>
-            <p class="lead">
-              <a target="_blank" href="https://www.cuentanos.org/">CuéntaNos.org</a> is a dynamic service mapping platform which compiles vital information
-              about civil society and governmental services, their locations, contact information, and how to access them. The platform was launched in August 2018,
-              hosts over 1,000 individual service sites across El Salvador from 100 participating organizations, and has had over 60,000 site visits.
-            </p>
-            <div class="videoWrapper">
-              <iframe src="https://www.youtube.com/embed/cUGcMrss4Z0" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
-            </div>
-            <div class="cta">
-              <a class="btn btn-primary js-scroll-trigger" target="_blank" href="https://www.cuentanos.org/">FIND OUT MORE</a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -204,10 +294,13 @@
   <footer class="footer text-center" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 copyright">
+        <div class="col-lg-4 logo">
+          <span></span>
+        </div>
+        <div class="col-lg-4 copyright">
           <p class="small mb-0">Copyright &copy; <script>document.write(new Date().getFullYear())</script> SIGNPOST. All Rights Reserved.</p>
         </div>
-        <div class="col-lg-6 social">
+        <div class="col-lg-4 social">
           <p class="small mb-0">
             <a target="_blank" href="https://github.com/theirc/web">Github</a>
             <a target="_blank" href="https://rescue.box.com/s/i4cg7z3u6qn6p83entakh4n36ctysv6c">Press kit</a>
