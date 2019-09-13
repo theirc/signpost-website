@@ -135,6 +135,19 @@ h6 {
       color: $white;
     }
   }
+
+  .partners-title {
+    color: $secondary;
+    margin: 20px 0;
+  }
+
+  .partners {
+    
+    img {
+      height: 60px;
+      margin: 20px 5%;
+    }
+  }
 }
 
 #our-instances {

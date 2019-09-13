@@ -217,6 +217,16 @@ h6 {
   color: #fff;
 }
 
+#who-we-are .partners-title {
+  color: #ecb807;
+  margin: 20px 0;
+}
+
+#who-we-are .partners img {
+  height: 60px;
+  margin: 20px 5%;
+}
+
 @media (min-width: 992px) {
   #our-instances .lead.mb-5 {
     margin: 0 10%;
