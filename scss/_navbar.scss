@@ -3,6 +3,11 @@
 	box-shadow: $box-shadow;
 	background-color: $white;
 	transition: background-color 0.2s ease;
+
+	#donate {
+		display: none;
+	}
+
 	.navbar-brand {
 		background-image: url('../img/logo-sp.png');
 		background-size: cover;
@@ -32,6 +37,21 @@
 	  box-shadow: none;
 		background-color: transparent;
 		padding-top: 3em;
+
+		#navbarResponsive {
+			justify-content: flex-end;
+		}
+	
+		#donate {
+			background-color: $secondary;
+			border-radius: 20px;
+			display: block;
+			font-size: .9rem;
+			margin-right: 10px;
+			padding: 5px 15px;
+			text-transform: uppercase;
+		}
+	
 	  .navbar-brand {
 			background-image: url('../img/logo-sp-white.png');
 			color: fade-out($white, .3);

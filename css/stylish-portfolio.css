@@ -478,6 +478,10 @@ footer.footer a {
   transition: background-color 0.2s ease;
 }
 
+#mainNav #donate {
+  display: none;
+}
+
 #mainNav .navbar-brand {
   background-image: url("../img/logo-sp.png");
   background-size: cover;
@@ -505,6 +509,18 @@ footer.footer a {
     box-shadow: none;
     background-color: transparent;
     padding-top: 3em;
+  }
+  #mainNav #navbarResponsive {
+    justify-content: flex-end;
+  }
+  #mainNav #donate {
+    background-color: #ecb807;
+    border-radius: 20px;
+    display: block;
+    font-size: .9rem;
+    margin-right: 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
   }
   #mainNav .navbar-brand {
     background-image: url("../img/logo-sp-white.png");
@@ -605,4 +621,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.ml-auto {
+  margin-left: initial !important;
 }
