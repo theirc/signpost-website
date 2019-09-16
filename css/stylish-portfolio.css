@@ -194,6 +194,22 @@ h6 {
   padding-right: 50px;
 }
 
+#who-we-are .logos .mc {
+  filter: invert(1) grayscale(100%);
+}
+
+#who-we-are .logos .mc:hover {
+  filter: none;
+}
+
+#who-we-are .logos .irc {
+  filter: grayscale(100%);
+}
+
+#who-we-are .logos .irc:hover {
+  filter: none;
+}
+
 #who-we-are .logos a {
   padding: 20px;
 }
@@ -223,8 +239,14 @@ h6 {
 }
 
 #who-we-are .partners img {
+  cursor: pointer;
+  filter: grayscale(100%);
   height: 60px;
   margin: 20px 5%;
+}
+
+#who-we-are .partners img:hover {
+  filter: none;
 }
 
 @media (min-width: 992px) {

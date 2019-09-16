@@ -118,6 +118,21 @@ h6 {
     flex-direction: row;
     align-items: center;
     padding-right: 50px;
+
+    .mc {
+      filter: invert(1) grayscale(100%);
+      &:hover {
+        filter: none;
+      }
+    }
+
+    .irc {
+      filter: grayscale(100%);
+      &:hover {
+        filter: none;
+      }
+    }
+
     a {
       padding: 20px;
       img {
@@ -144,8 +159,14 @@ h6 {
   .partners {
     
     img {
+      cursor: pointer;
+      filter: grayscale(100%);
       height: 60px;
       margin: 20px 5%;
+
+      &:hover {
+        filter: none;
+      }
     }
   }
 }
