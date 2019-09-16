@@ -316,6 +316,21 @@ h6 {
   line-height: 2rem;
 }
 
+#about .donate {
+  background-color: #ecb807;
+  border-radius: 5px;
+  display: block;
+  font-size: .9rem;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+#about .donate:hover {
+  background-color: #f9cb2d;
+}
+
 #instance-box {
   border-radius: 8px;
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
@@ -510,7 +525,7 @@ footer.footer a {
   transition: background-color 0.2s ease;
 }
 
-#mainNav #donate {
+#mainNav .donate {
   display: none;
 }
 
@@ -545,7 +560,7 @@ footer.footer a {
   #mainNav #navbarResponsive {
     justify-content: flex-end;
   }
-  #mainNav #donate {
+  #mainNav .donate {
     background-color: #ecb807;
     border-radius: 5px;
     display: block;
@@ -554,7 +569,7 @@ footer.footer a {
     padding: 5px 20px;
     text-transform: uppercase;
   }
-  #mainNav #donate:hover {
+  #mainNav .donate:hover {
     background-color: #f9cb2d;
   }
   #mainNav .navbar-brand {

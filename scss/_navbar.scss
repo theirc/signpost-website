@@ -4,7 +4,7 @@
 	background-color: $white;
 	transition: background-color 0.2s ease;
 
-	#donate {
+	.donate {
 		display: none;
 	}
 
@@ -42,7 +42,7 @@
 			justify-content: flex-end;
 		}
 	
-		#donate {
+		.donate {
 			background-color: $ri-primary;
 			border-radius: 5px;
 			display: block;

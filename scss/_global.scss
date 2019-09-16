@@ -229,6 +229,21 @@ h6 {
       line-height: 2rem;
     }
   }
+  .donate {
+    background-color: $ri-primary;
+    border-radius: 5px;
+    display: block;
+    font-size: .9rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: fit-content;
+
+    &:hover {
+      background-color: lighten($ri-primary, 10%);
+    }
+  }
+
 }
 
 #instance-box {
