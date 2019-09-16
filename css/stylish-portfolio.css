@@ -632,6 +632,32 @@ a:hover, a:focus, a:active {
   border-color: #1f7034 !important;
 }
 
+.btn-ri {
+  background-color: #ecb807 !important;
+  border-color: #ecb807 !important;
+  color: black !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
+}
+
+.btn-ri:hover, .btn-ri:focus, .btn-ri:active {
+  background-color: #ba9106 !important;
+  border-color: #ba9106 !important;
+}
+
+.btn-ki {
+  background-color: #d01f2f !important;
+  border-color: #d01f2f !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
+}
+
+.btn-ki:hover, .btn-ki:focus, .btn-ki:active {
+  background-color: #a41825 !important;
+  border-color: #a41825 !important;
+}
+
 .btn-dark {
   color: #fff !important;
 }

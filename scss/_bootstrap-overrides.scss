@@ -12,15 +12,15 @@ a {
 }
 
 .btn-primary {
-  background-color: $secondary !important;
-  border-color: $secondary !important;
+  background-color: $ri-primary !important;
+  border-color: $ri-primary !important;
   color: $black !important;
   font-size: 1rem !important;
   padding: 8px 27px;
   &:hover,
   &:focus,
   &:active {
-    background-color: darken($secondary, 10%) !important;
+    background-color: darken($ri-primary, 10%) !important;
   }
 }
 
@@ -36,6 +36,32 @@ a {
   &:active {
     background-color: darken($cn-primary, 10%) !important;
     border-color: darken($cn-primary, 10%) !important;
+  }
+}
+.btn-ri {
+  background-color: $ri-primary !important;
+  border-color: $ri-primary !important;
+  color: black !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($ri-primary, 10%) !important;
+    border-color: darken($ri-primary, 10%) !important;
+  }
+}
+.btn-ki {
+  background-color: $ki-primary !important;
+  border-color: $ki-primary !important;
+  color: $white !important;
+  font-size: 1rem !important;
+  padding: .5rem 1.5rem;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($ki-primary, 10%) !important;
+    border-color: darken($ki-primary, 10%) !important;
   }
 }
 
@@ -62,7 +88,7 @@ a {
 }
 
 .text-secondary {
-  color: $secondary !important;
+  color: $ri-primary !important;
 }
 
 .ml-auto {
