@@ -554,6 +554,9 @@ footer.footer a {
     padding: 5px 20px;
     text-transform: uppercase;
   }
+  #mainNav #donate:hover {
+    background-color: #f9cb2d;
+  }
   #mainNav .navbar-brand {
     background-image: url("../img/logo-sp-white.png");
     color: rgba(255, 255, 255, 0.7);
