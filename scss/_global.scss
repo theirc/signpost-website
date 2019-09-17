@@ -120,14 +120,14 @@ h6 {
     padding-right: 50px;
 
     .mc {
-      filter: invert(1) grayscale(100%);
+      filter: invert(1) grayscale(100%) brightness(130%);
       &:hover {
         filter: none;
       }
     }
 
     .irc {
-      filter: grayscale(100%);
+      filter: grayscale(100%) brightness(130%);
       &:hover {
         filter: none;
       }
@@ -160,7 +160,7 @@ h6 {
     
     img {
       cursor: pointer;
-      filter: grayscale(100%);
+      filter: grayscale(100%) brightness(300%);
       height: 60px;
       margin: 20px 5%;
 

@@ -195,7 +195,7 @@ h6 {
 }
 
 #who-we-are .logos .mc {
-  filter: invert(1) grayscale(100%);
+  filter: invert(1) grayscale(100%) brightness(130%);
 }
 
 #who-we-are .logos .mc:hover {
@@ -203,7 +203,7 @@ h6 {
 }
 
 #who-we-are .logos .irc {
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(130%);
 }
 
 #who-we-are .logos .irc:hover {
@@ -240,7 +240,7 @@ h6 {
 
 #who-we-are .partners img {
   cursor: pointer;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(300%);
   height: 60px;
   margin: 20px 5%;
 }
