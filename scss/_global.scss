@@ -190,9 +190,12 @@ h6 {
       height: 80px;
       margin-bottom: 20px;
     }
+    .lead {
+      font-size: 1.3rem;
+    }
     hr {
       margin-top: 3rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     .row {
       div {
@@ -251,7 +254,8 @@ h6 {
   border-radius: 8px;
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  padding: 40px 40px 80px;
+  padding: 20px 20px 60px;
+  
   .carousel-indicators .active {
     background-color: $black;
     border: 1px solid $black;
