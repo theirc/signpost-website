@@ -153,15 +153,21 @@ h6 {
 
   .partners-title {
     color: $ri-primary;
-    margin: 20px 0;
+    margin: 20px 0 30px;
   }
 
   .partners {
     
+    #facebook {
+      img {
+        height: 30px;
+      }
+    }
+
     img {
       cursor: pointer;
       filter: grayscale(100%) brightness(300%);
-      height: 60px;
+      height: 40px;
       margin: 20px 5%;
 
       &:hover {
@@ -255,7 +261,7 @@ h6 {
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   padding: 20px 20px 60px;
-  
+
   .carousel-indicators .active {
     background-color: $black;
     border: 1px solid $black;

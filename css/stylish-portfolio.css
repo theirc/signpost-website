@@ -235,13 +235,17 @@ h6 {
 
 #who-we-are .partners-title {
   color: #ecb807;
-  margin: 20px 0;
+  margin: 20px 0 30px;
+}
+
+#who-we-are .partners #facebook img {
+  height: 30px;
 }
 
 #who-we-are .partners img {
   cursor: pointer;
   filter: grayscale(100%) brightness(300%);
-  height: 60px;
+  height: 40px;
   margin: 20px 5%;
 }
 
